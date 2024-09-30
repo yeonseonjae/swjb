@@ -78,6 +78,7 @@ li {
    color: #ff6a6a;
    font-size: 21px;
    border-bottom: 1px solid #ff6a6a;
+   margin-bottom: 5px;
 }
 
 .main {
@@ -301,4 +302,9 @@ li {
    background-size: cover;
 
    background-attachment: fixed;
+}
+
+.project {
+   height: 1200px;
+   margin-top: 0;
 }
