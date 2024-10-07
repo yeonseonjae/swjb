@@ -24,7 +24,7 @@ li {
 .container {
    width: 100%;
    height: 955px;
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg.png) no-repeat;
+   background: linear-gradient(rgba(0, 0, 0, 0), rgba(84, 120, 240.75)), url(bg.png) no-repeat; 
    background-size: cover;
    background-position: center;
    color: white;
@@ -75,9 +75,9 @@ li {
 }
 
 .menu li a:hover {
-   color: #ff6a6a;
+   color: #6c8af0;
    font-size: 21px;
-   border-bottom: 1px solid #ff6a6a;
+   border-bottom: 1px solid #6c8af0;
    margin-bottom: 5px;
 }
 
@@ -167,7 +167,7 @@ li {
 }
 
 .about h2 {
-   color: #ff6a6a;
+   color: #5478f0;
    font-size: 20px;
 }
 
@@ -197,7 +197,7 @@ li {
 .about .right {
    width: 600px;
    height: 400px;
-   padding-left: 20px;
+   padding-left: 25px;
 }
 
 .about .right h1 {
@@ -206,7 +206,7 @@ li {
 }
 
 .about .right span {
-   color: #fd9d9c;
+   color: #6c8af0;
 }
 
 .about .right li {
@@ -240,7 +240,7 @@ li {
 
 .skills h2 {
    font-size: 20px;
-   color: #ff6a6a;
+   color: #5478f0;
 }
 
 .skills h1 {
@@ -276,13 +276,13 @@ li {
 
 .skills i {
    font-size: 45px;
-   color: #ff6a6a;
+   color: #5478f0;
 
    transition: 0.3s;
 }
 
 .skills .contents li:hover {
-   background-color: #ff6a6a;
+   background-color: #5478f0;
    color: white;
 }
 
@@ -305,6 +305,87 @@ li {
 }
 
 .project {
+   background-color: #eee;
+   width: 100%;
    height: 1200px;
-   margin-top: 0;
+
+   margin-top: 0px;
+   padding-top: 100px;
+}
+
+.project h2 {
+   font-size: 20px;
+   color: #5478f0;
+}
+
+.project h1 {
+   font-size: 50px;
+}
+
+.project-inner {
+   width: 1200px;
+   height: 700px;
+   margin: 0 auto;
+}
+
+.project .contents {
+   width: 1200px;
+   height: 300px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   margin-top: 50px;
+}
+
+.project .contents li {
+   width: 350px;
+   height: 350px;
+   font-size: 20px;
+   padding: 30px;
+   background-color: white;
+
+   transition: 0.3s;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px #ccc ;
+}
+
+.project span {
+   font-size: 42px;
+   color: #5478f0;
+
+   transition: 0.3s;
+}
+
+.project .contents li:hover {
+   background-color: #5478f0;
+   color: white;
+}
+
+.project .contents li:hover span {
+   color: #5478f0;
+   background-color: white;
+}
+
+.project h3 {
+   font-size: 35px;
+   margin-bottom: 20px;
+}
+
+.project span {
+   font-size: 20px;
+   width: 190px;
+   font-weight: bold;
+
+   color: #fff;
+   background-color: #5478f0;
+
+   padding: 4px 8px;
+   border-radius: 9px;
+
+   align-self: flex-start;
+}
+
+.project p {
+   margin-top: 22px;
 }
