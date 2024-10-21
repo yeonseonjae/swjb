@@ -324,55 +324,47 @@ li {
 
 .project-inner {
    width: 1200px;
-   height: 700px;
+   height: 1050px;
    margin: 0 auto;
 }
 
 .project .contents {
    width: 1200px;
-   height: 300px;
+   height: 900px;
+
    display: flex;
-   justify-content: space-around;
-   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
 
    margin-top: 50px;
 }
 
-.project .contents li {
-   width: 350px;
-   height: 350px;
+.project .contents .box {
+   width: 530px;
+   height: 215px;
    font-size: 20px;
    padding: 30px;
    background-color: white;
+   
+   overflow: hidden;
+   transition: 0.75s;
 
-   transition: 0.3s;
    border-radius: 10px;
    box-shadow: 5px 5px 10px #ccc ;
 }
 
-.project span {
-   font-size: 42px;
-   color: #5478f0;
-
-   transition: 0.3s;
+.project .contents .box:hover {
+   height: 760px;
 }
 
-.project .contents li:hover {
-   background-color: #5478f0;
-   color: white;
+
+.project .contents .box img {
+   width: 470px;
+   height: 246px;
+   margin-top: 20px;
 }
 
-.project .contents li:hover span {
-   color: #5478f0;
-   background-color: white;
-}
-
-.project h3 {
-   font-size: 35px;
-   margin-bottom: 20px;
-}
-
-.project span {
+.project .contents span {
    font-size: 20px;
    width: 190px;
    font-weight: bold;
@@ -384,8 +376,104 @@ li {
    border-radius: 9px;
 
    align-self: flex-start;
+
+   transition: 0.3s;
 }
 
-.project p {
-   margin-top: 22px;
+.project .contents h3 {
+   padding-top: 10px;
+   margin-top: 20px;
+   margin-bottom: 12px;
+   border-top: 1px solid #ccc;
+   font-size: 17px;
+   font-weight: 700;
+   transition: 0.3s;
+}
+
+.project .contents .lore li {
+   list-style: disc;
+   margin-left: 18px;
+   font-size: 14px;
+   font-weight: 530;
+}
+
+.contact {
+   width: 1200px;
+   height: 855px;
+   margin: 0 auto;
+   margin-top: 100px;
+}
+
+.contact h2 {
+   font-size: 20px;
+   color: #5478f0;
+}
+
+.contact h1 {
+   font-size: 50px;
+}
+
+.contact .contents {
+   width: 1200px;
+   height: 700px;
+
+   display: flex;
+}
+
+.contact .left {
+   width: 500px;
+   height: 700px;
+}
+
+.contact .right {
+   width: 700px;
+   height: 700px;
+}
+
+.info {
+   width: 450px;
+   height: 80px;
+   border: 1px solid #ccc;
+   margin: 10px;
+   margin-top: 15px;
+   padding: 15px;
+   display: flex;
+   font-size: 15px;
+   border-radius: 5px;
+}
+
+.info .icon {
+   font-size: 30px;
+   text-align: center;
+   width: 40px;
+   height: 40px;
+   margin-right: 20px;
+}
+
+.contact .right p {
+   margin-bottom: 5px;
+}
+
+.contact .right input {
+   width: 700px;
+   height: 30px;
+   margin-bottom: 10px;
+}
+
+.contact .right textarea {
+   width: 700px;
+   height: 300px;
+}
+
+.contact button {
+   width: 700px;
+   height: 30px;
+   background-color: #5478f0;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+   margin-top: 10px;
+   font-size: 15px;
 }
