@@ -295,7 +295,7 @@ li {
 .skills {
    background-color: #eee;
    width: 100%;
-   height: 650px;
+   height: 750px;
 
    margin-top: 100px;
    padding-top: 100px;
@@ -311,19 +311,18 @@ li {
 }
 
 .skills-inner {
-   width: 1200px;
+   width: 1640px;
    height: 650px;
    margin: 0 auto;
 }
 
 .skills .contents {
-   width: 1200px;
+   width: 1640px;
    height: 300px;
    display: flex;
-   justify-content: space-between;
-   align-items: center;
+   gap: 20px;
 
-   margin-top: 5px;
+   margin-top: 25px;
 }
 
 .skills .contents li {
@@ -343,11 +342,10 @@ li {
    font-family: "Paperlogy-5Medium";
 }
 
-.skills i {
-   font-size: 45px;
-   color: #5478f0;
-
-   transition: 0.3s;
+.skills .contents img {
+   width: 96px;
+   height: 96px;
+   margin-bottom: 20px; 
 }
 
 .skills .contents li:hover {
