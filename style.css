@@ -420,8 +420,19 @@ li {
    box-shadow: 5px 5px 10px #ccc ;
 }
 
-.project .contents button {
-   font-size: 20px;
+.project .contents .box span {
+   margin-right: 10px;
+}
+
+.project .contents .box .title {
+   display: flex;
+}
+
+.project .contents a {
+   display: block;
+   text-decoration: none;
+   color: black;
+   font-size: 28px;
    border: none;
    background-color: transparent;
    cursor: pointer;
@@ -446,7 +457,6 @@ li {
 
 .project .contents span {
    font-size: 20px;
-   width: 190px;
 
    color: #fff;
    background-color: #5478f0;
