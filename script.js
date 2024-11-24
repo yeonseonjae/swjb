@@ -1,16 +1,12 @@
-$(document).ready(function () {
-    $('.image-modal').hide();
-})
-
 $('.project .box img').click(function () {
     const imgSrc = $(this).attr('src');
     $('.image-modal img').attr('src', imgSrc);
-    $('.image-modal').fadeIn();
+    $('.image-modal').css('display', 'flex').hide().fadeIn();
 });
 
 $('.image-modal').click(function () {
-    $(this).fadeOut();
-});
+    $('.image-modal').fadeOut();
+ });
 
 $(document).keydown(function (e) {
     if (e.key === "Escape") {
